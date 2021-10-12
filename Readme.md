@@ -18,22 +18,24 @@ GET - https://localhost:44356/api/v1/catalogues
 Create New Catalogue:
 ---------------------
 POST - https://localhost:44356/api/v1/catalogues
+
 {
-  "title": "bookCatalogue",
-  "author": "Arul",
-  "isbn": "1234567891233",
-  "publicationDate": "2021-10-12T07:13:21.359Z"
+  "Title": "bookCatalogue",
+  "Author": "Arul",
+  "ISBN": "1234567891233",
+  "PublicationDate": "2021-10-12T07:13:21.359Z"
 }
 
 
 Update Catalogue:
 -----------------
 PUT - https://localhost:44356/api/v1/catalogues/1234567891233
+
 {
-  "title": "bookCatalogue",
-  "author": "Arulkumar",
-  "isbn": "1234567891233",
-  "publicationDate": "2021-10-12T07:13:21.359Z"
+  "Title": "bookCatalogue",
+  "Author": "Arul",
+  "ISBN": "1234567891233",
+  "PublicationDate": "2021-10-12T07:13:21.359Z"
 }
 
 
