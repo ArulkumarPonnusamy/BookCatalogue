@@ -25,6 +25,7 @@ namespace BookCatalogueApi.Application.Test.Catalogue.Commands.Delete
         private readonly DeleteCatalogueCommand _deleteCatalogueCommand;
         public ModifyCatalogueCommandTest()
         {
+            //deleting test
             _createCatalogueCommand = new CreateCatalogueCommand { Author = "Arul", ISBN = "1234567891232", Title = "Sample Program", PublicationDate = DateTime.Today };
             _deleteCatalogueCommand = new DeleteCatalogueCommand { Author = "Arul", ISBN = "1234567891232", Title = "Sample Program", PublicationDate = DateTime.Today };
             MapperConfiguration configurationProvider = new MapperConfiguration(cfg =>
@@ -37,6 +38,7 @@ namespace BookCatalogueApi.Application.Test.Catalogue.Commands.Delete
         }
 
         
+
         [Fact]
         public async Task Handle_Catalogue_Delete()
         {
