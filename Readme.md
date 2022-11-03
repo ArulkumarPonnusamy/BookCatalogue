@@ -1,7 +1,7 @@
 
 Technology Used - .Net Core 5
 Required Framework - Framework 4.8
-Visual Studio - 2019
+Visual Studio - 2019 or latest version
 
 Swagger UI:
 -----------
