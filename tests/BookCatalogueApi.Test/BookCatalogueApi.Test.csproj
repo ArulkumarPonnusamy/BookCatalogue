@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-{"license":{"version":1,"signature":"7916c909b983e74f9e3c076ffa41d928d40e912c2e9f4f722c6e738aaaf926ff0023585cd1a2a636c9193c34559fb701540a1d61ecedbcbef5059b9f381814d0","payload":{"customer":"DSB","license_creation_date":"2022-12-22","product_subscription":"Kong Enterprise Edition","support_plan":"Platinum","admin_seats":"Unlimited","dataplanes":"0","license_expiration_date":"2023-12-29","license_key":"0011K000029bTA0QAM_a1V1K0000099HTXUA2"}}}
-  <PropertyGroup>
+ <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
